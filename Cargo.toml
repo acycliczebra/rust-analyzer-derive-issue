@@ -1,0 +1,10 @@
+[package]
+name = "rust-analyzer-derive-issue"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["my-derive"]
+
+[dependencies]
+my-derive = { path = "my-derive" }
